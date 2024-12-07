@@ -18,9 +18,9 @@
         }
     ],
     "vod": [
-        {
-            "name": "欧歌网盘",
-            "api": "https://ghp.ci/https://raw.githubusercontent.com/ouhaibo1980/uzVideo-extensions/refs/heads/main/vod/js/wogg.js",
+         {
+            "name": "🐲欧歌资源",
+            "api": "https://ghp.ci/https://raw.githubusercontent.com/ouhaibo1980/uzVideo-extensions/refs/heads/main/vod/js/ouge.js",
             "webSite": "https://woog.nxog.eu.org",
             "remark": "网盘 1.6.41 及以上版本可用",
             "version": "3",
@@ -275,14 +275,7 @@
             "version": "3",
             "type": 101
         },
-        {
-            "name": "🐲欧歌资源",
-            "api": "https://ghp.ci/https://raw.githubusercontent.com/ouhaibo1980/uzVideo-extensions/refs/heads/main/vod/js/ouge.js",
-            "webSite": "https://woog.nxog.eu.org",
-            "remark": "网盘 1.6.41 及以上版本可用",
-            "version": "3",
-            "type": 101
-        },
+      
         {
             "name": "🤙🏻六趣网盘",
             "api": "https://ghp.ci/https://raw.githubusercontent.com/ouhaibo1980/uzVideo-extensions/refs/heads/main/vod/js/liuqu.js",
