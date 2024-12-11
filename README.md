@@ -3,6 +3,14 @@
 
 https://ghp.ci/https://raw.githubusercontent.com/ouhaibo1980/uzVideo-extensions/refs/heads/main/uzAio.json
 
+https://jsdelivr.pai233.top/gh/ouhaibo1980/uzVideo-extensions@main/uzAio.json
+
+https://fastly.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/uzAio.json
+
+https://ghproxy.net/https://raw.githubusercontent.com/ouhaibo1980/uzVideo-extensions/main/uzAio.json
+
+https://ghp.ci/https://raw.githubusercontent.com/ouhaibo1980/uzVideo-extensions/main/uzAio.json
+
 # 添加方式
 
 uz 影视 -> 设置 -> 数据管理 -> 订阅 -> + -> 输入链接 -> 确定
