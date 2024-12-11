@@ -27,14 +27,6 @@
             "type": 100
         },
         {
-            "name": "玩偶哥哥",
-            "api": "https://ghp.ci/https://raw.githubusercontent.com/ouhaibo1980/uzVideo-extensions/refs/heads/main/vod/js/wogg.js",
-            "webSite": "https://www.wogg.net",
-            "remark": "网盘 1.6.41 及以上版本可用",
-            "version": "3",
-            "type": 101
-        },
-        {
             "name": "厂长视频",
             "api": "https://ghp.ci/https://raw.githubusercontent.com/ouhaibo1980/uzVideo-extensions/refs/heads/main/vod/js/changZhang20240614.js",
             "instance": "changZhang20240614",
