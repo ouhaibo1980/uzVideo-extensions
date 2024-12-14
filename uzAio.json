@@ -47,13 +47,14 @@
         }
     ],
     "vod": [
-        {
-            "name": "玩偶哥哥",
-            "api": "https://ghp.ci/https://raw.githubusercontent.com/ouhaibo1980/uzVideo-extensions/refs/heads/main/vod/js/wogg.js",
-            "webSite": "https://www.wogg.net",
-            "remark": "网盘 1.6.41 及以上版本可用",
-            "version": "3",
-            "type": 101
+     {
+            "name": "🐲欧歌资源",
+            "api": "https://ghp.ci/https://raw.githubusercontent.com/ouhaibo1980/uzVideo-extensions/refs/heads/main/vod/js/ougepan.js",
+            "instance": "ougepan20241030",
+            "webSite": "https://woog.nxog.eu.org/",
+            "remark": "欧歌网盘",
+            "version": "2",
+            "type": 100
         },
         {
             "name": "厂长视频",
@@ -210,15 +211,7 @@
             "version": "2",
             "type": 100
         },
-        {
-            "name": "🐲欧歌资源",
-            "api": "https://ghp.ci/https://raw.githubusercontent.com/ouhaibo1980/uzVideo-extensions/refs/heads/main/vod/js/ougepan.js",
-            "instance": "ougepan20241030",
-            "webSite": "https://woog.nxog.eu.org/",
-            "remark": "欧歌网盘",
-            "version": "2",
-            "type": 100
-        },
+       
         {
             "name": "🍔奥秘影视",
             "api": "https://ghp.ci/https://raw.githubusercontent.com/ouhaibo1980/uzVideo-extensions/refs/heads/main/vod/js/aomipan.js",
