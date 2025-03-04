@@ -55,13 +55,22 @@
         }
     ],
     "vod": [
-        {
-            "name": "玩偶哥哥",
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/wogg.js",
-            "webSite": "https://www.wogg.lol",
+          {
+            "name": "🐲欧歌资源",
+            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ouhaibo1980/uzVideo-extensions/refs/heads/main/vod/js/ouge.js",
+            "webSite": "https://woog.nxog.eu.org",
             "remark": "网盘 1.6.41 及以上版本可用",
             "version": "3",
             "type": 101
+        },
+           {
+            "name": "🐲欧歌资源备用",
+            "api": "https://jsdelivr.pai233.top/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/ougepan.js",
+            "instance": "ougepan20241030",
+            "webSite": "https://woog.xn--dkw.xn--6qq986b3xl/",
+            "remark": "欧歌网盘",
+            "version": "3",
+            "type": 100
         },
         {
             "name": "厂长视频",
