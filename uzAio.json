@@ -55,9 +55,9 @@
         }
     ],
     "vod": [
-            {
+                 {
             "name": "🐲欧歌资源",
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ouhaibo1980/uzVideo-extensions/refs/heads/main/vod/js/ouge.js",
+            "api": "https://raw.githubusercontent.com/ouhaibo1980/uzVideo-extensions/refs/heads/main/vod/js/ouge.js",
             "webSite": "https://woog.nxog.eu.org",
             "remark": "网盘 1.6.41 及以上版本可用",
             "version": "3",
@@ -65,7 +65,7 @@
         },
            {
             "name": "🐲欧歌资源备用",
-            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ouhaibo1980/uzVideo-extensions/refs/heads/main/vod/js/ouge.js",
+             "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ouhaibo1980/uzVideo-extensions/refs/heads/main/vod/js//ougepan.js",
             "instance": "ougepan20241030",
             "webSite": "https://woog.xn--dkw.xn--6qq986b3xl/",
             "remark": "欧歌网盘",
