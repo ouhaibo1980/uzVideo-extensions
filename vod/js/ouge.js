@@ -1,4 +1,4 @@
-//@name:讴歌盘
+//@name:至臻盘
 //@version:3
 //@webSite:https://woog.nxog.eu.org
 //@remark:
@@ -43,7 +43,7 @@ async function getClassList(args) {
         },
         {
             type_id: '2',
-            type_name: '欧哥剧集',
+            type_name: '欧歌剧集',
             hasSubclass: false,
         },
         {
@@ -56,6 +56,7 @@ async function getClassList(args) {
             type_name: '欧歌综艺',
             hasSubclass: false,
         },
+     
         {
             type_id: '5',
             type_name: '欧歌短剧',
@@ -73,7 +74,6 @@ async function getSubclassVideoList(args) {
     var backData = new RepVideoList()
     return JSON.stringify(backData)
 }
-
 /**
  * 获取分类视频列表
  * @param {UZArgs} args
