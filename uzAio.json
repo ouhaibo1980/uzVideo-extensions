@@ -44,6 +44,21 @@
     }
   ],
   "vod": [
+         {
+      "name": "讴歌盘",
+      "version": 3,
+      "webSite": "https://woog.nxog.eu.org",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ouhaibo1980/uzVideo-extensions/main/vod/js/ouge.js",
+      "type": 101
+    },
+     {
+      "name": "讴歌备用",
+      "version": 3,
+       "instance": "ougepan20250324",
+      "webSite": "https://woog.xn--dkw.xn--6qq986b3xl",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ouhaibo1980/uzVideo-extensions/main/vod/js/ouge.js",
+      "type": 101
+    },
     {
       "name": "烧火",
       "version": 2,
