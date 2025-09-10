@@ -1,10 +1,10 @@
 //@name:[盘] 欧歌
 //@version:3
-//@webSite:https://woog.nxog.eu.org
+//@webSite:https://woog.nxog.fun
 //@remark:
 //@order: A08
 const appConfig = {
-    _webSite: 'https://woog.nxog.eu.org',
+    _webSite: 'https://woog.nxog.fun',
     /**
      * 网站主页，uz 调用每个函数前都会进行赋值操作
      * 如果不想被改变 请自定义一个变量
