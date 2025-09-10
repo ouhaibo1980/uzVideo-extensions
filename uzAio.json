@@ -91,6 +91,23 @@
     }
   ],
   "vod": [
+   {
+      "name": "[盘] 欧歌",
+      "version": 3,
+      "webSite": "https://woog.nxog.eu.org",
+      "order": "A08",
+      "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Pan_ouge.js",
+      "type": 101
+    },
+      {
+      "name": "[备] 欧歌",
+      "version": 3,
+      "webSite": "https://woog.nxog.fun/",
+      "order": "A08",
+      "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_ouge.js",
+      "type": 101
+    },
+    
     {
       "name": "[盘] 玩偶",
       "version": 3,
@@ -147,14 +164,7 @@
       "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Pan_zhizhen.js",
       "type": 101
     },
-    {
-      "name": "[盘] 欧歌",
-      "version": 3,
-      "webSite": "https://woog.nxog.eu.org",
-      "order": "A08",
-      "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Pan_ouge.js",
-      "type": 101
-    },
+ 
     {
       "name": "[盘] 多多",
       "version": 3,
