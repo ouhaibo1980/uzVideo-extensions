@@ -100,8 +100,10 @@ class VideoDetail {
         this.vod_pic = ''
         // 视频分类
         this.type_name = ''
-        // 更新到
+        // 底部备注
         this.vod_remarks = ''
+        // 右上角备注
+        this.topRightRemarks = ''
         // 豆瓣
         this.vod_douban_score = ''
         // 语言
@@ -213,9 +215,11 @@ class RepVideoPlayUrl {
 
         /**
          * 多个播放地址，优先取该值 如果为空取 data
-         * @type {{name:string,url:string,headers:object,priority:number,isSniffer:boolean,snifferUA:string, timeOut:number, retry:number}[]}
+         * @type {{name:string,url:string,audioUrl:string,headers:object,priority:number,isSniffer:boolean,snifferUA:string, timeOut:number, retry:number}[]}
          * @property {string} name 名称 4k 高清 之类
          * @property {string} url 播放地址
+         * @property {string} audioUrl 音频地址
+         * @property {string} platformUrl 视频官方平台链接
          * @property {object} headers 播放头
          * @property {number} priority 优先级
          * @property {boolean} isSniffer 是否是嗅探 默认 false, app v1.6.55 及以上版本可用

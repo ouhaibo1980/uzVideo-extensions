@@ -84,6 +84,13 @@ class DanMu {
          * @type {number}
          */
         this.time = 0
+
+
+        /**
+         * 弹幕颜色 支持 10 进制 16 进制
+         * @type {string}
+         */
+        this.color = ''
     }
 }
 
@@ -147,6 +154,22 @@ class SearchParameters {
     }
 }
 
+class DanVideoPlatform {
+    constructor() {
+        /**
+         * 平台名称
+         * @type {string}
+         */
+        this.name = ''
+
+        /**
+         * 是否支持切换获取弹幕线路
+         * @type {boolean}
+         */
+        this.isLineSwitchSupported = false
+    }
+}
+
 class DanEpisode {
     constructor() {
         this.vod_name = ''
@@ -180,7 +203,7 @@ async function getLines() {
 
 /**
  * 获取搜索资源平台名称列表 (可选)
- * @returns {Promise<{data: string[], error: string}>} result - 返回一个包含平台信息列表的 Promise 对象
+ * @returns {Promise<{data: DanVideoPlatform [], error: string}>} result - 返回一个包含平台信息列表的 Promise 对象
  */
 async function getVideoPlatformList() {
     return formatBackData({
