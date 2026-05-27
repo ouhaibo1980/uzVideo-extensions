@@ -30,6 +30,26 @@ const appConfig = {
     },
 }
 
+function fixImgUrl(imgUrl) {
+    const rawUrl = String(imgUrl || '').trim()
+    if (!rawUrl) {
+        return ''
+    }
+    if (rawUrl.startsWith('/db.php?url=')) {
+        return combineUrl(rawUrl)
+    }
+    if (/^https?:\/\/[^/]*gimg\d*\.baidu\.com\/gimg\//i.test(rawUrl)) {
+        const sourceIndex = rawUrl.lastIndexOf('src=')
+        if (
+            sourceIndex !== -1 &&
+            rawUrl.slice(sourceIndex + 4).includes('data:image/')
+        ) {
+            return ''
+        }
+    }
+    return rawUrl
+}
+
 /**
  * 异步获取分类列表的方法。
  * @param {UZArgs} args
@@ -113,9 +133,9 @@ async function getVideoList(args) {
                 videoDet.vod_name = $(e)
                     .find('.module-item-pic img')
                     .attr('alt')
-                videoDet.vod_pic = $(e)
-                    .find('.module-item-pic img')
-                    .attr('data-src')
+                videoDet.vod_pic = fixImgUrl(
+                    $(e).find('.module-item-pic img').attr('data-src')
+                )
                 videoDet.vod_remarks = $(e).find('.module-item-text').text()
                 videos.push(videoDet)
             })
@@ -143,9 +163,9 @@ async function getVideoDetail(args) {
             let vodDetail = new VideoDetail()
             vodDetail.vod_id = args.url
             vodDetail.vod_name = $('.page-title')[0].children[0].data
-            vodDetail.vod_pic = $($('.mobile-play')).find(
-                '.lazyload'
-            )[0].attribs['data-src']
+            vodDetail.vod_pic = fixImgUrl(
+                $($('.mobile-play')).find('.lazyload')[0].attribs['data-src']
+            )
 
             let video_items = $('.video-info-itemtitle')
 
@@ -223,9 +243,9 @@ async function searchVideo(args) {
             let video = new VideoDetail()
             video.vod_id = $(item).find('.video-serial')[0].attribs.href
             video.vod_name = $(item).find('.video-serial')[0].attribs.title
-            video.vod_pic = $(item).find('.module-item-pic > img')[0].attribs[
-                'data-src'
-            ]
+            video.vod_pic = fixImgUrl(
+                $(item).find('.module-item-pic > img')[0].attribs['data-src']
+            )
             video.vod_remarks = $($(item).find('.video-serial')[0]).text()
             backData.data.push(video)
         }

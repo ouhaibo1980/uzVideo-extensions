@@ -7,7 +7,7 @@
 //@instance:gzys20240822
 //@logo:guazi2.png
 //@order: B
-
+//@deprecated:1
 import {} from '../../core/uzVideo.js'
 import {} from '../../core/uzHome.js'
 import {} from '../../core/uz3lib.js'
