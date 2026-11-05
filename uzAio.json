@@ -95,8 +95,9 @@
     "name": "[盘] 欧歌",
     "version": 3,
     "webSite": "https://woog.nxog.eu.org",
-    "order": "A01",
+    "order": "A08",
     "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_ouge.js",
+          "logo": "https://ncstatic-file.clewm.net/rsrc/2025/0930/20/945a6372224243d3f3d63cb309c0b7b1.png"
     "type": 101
   },
     {
@@ -104,7 +105,8 @@
     "version": 3,
     "webSite": "https://woog.nxog.fun",
     "order": "A08",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_ouge.js",
+    "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Pan_ouge.js",
+      "logo": "https://ncstatic-file.clewm.net/rsrc/2025/0930/20/945a6372224243d3f3d63cb309c0b7b1.png" 
     "type": 101
   },
   {
