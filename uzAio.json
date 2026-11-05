@@ -1,31 +1,12 @@
 [
   {
-    "name": "夸克|UC|阿里|天翼|123|百度|移动|pikpak|115|解析",
-    "version": 41,
+    "name": "夸克|UC|阿里|天翼|123|百度|移动|pikpak|115|迅雷|光鸭|解析",
+    "version": 52,
     "remark": "iOS 15 及以上版本可用",
-    "env": "百度网盘Cookie##用于播放百度网盘视频&&UCCookie##用于播放UC网盘视频&&UC_Token##UC网盘 Open API Token（可选，优先使用）&&夸克Cookie##用于播放Quark网盘视频&&阿里云盘RefreshToken##用于播放阿里网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称&&123网盘账号##用于播放123网盘视频&&123网盘密码##用于播放123网盘视频&&天翼网盘账号##用于播放天翼网盘视频&&天翼网盘密码##用于播放天翼网盘视频&&115Cookie##用于播放115网盘视频&&PikPakToken##用于存储登录信息,Bearer 开头&&采集解析地址##内置两个，失效不要反馈。格式：名称1@地址1;名称2@地址2",
-    "codeID": "CKQtUYTSUTF4hs7ofkdPDxK9TbjdFgkC",
+    "env": "百度网盘Cookie##用于播放百度网盘视频&&UCCookie##用于播放UC网盘视频&&UC_Token##UC网盘 Open API Token（可选，优先使用）&&夸克Cookie##用于播放Quark网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称&&123网盘账号##用于播放123网盘视频&&123网盘密码##用于播放123网盘视频&&天翼网盘账号##用于播放天翼网盘视频&&天翼网盘密码##用于播放天翼网盘视频&&移动云盘Token##用于播放移动云盘资源，填写 Authorization 的 Basic token 或完整 Basic 头&&115Cookie##用于播放115网盘视频&&迅雷网盘账号##用于播放迅雷网盘视频&&迅雷网盘密码##用于播放迅雷网盘视频&&迅雷验证码##迅雷账号触发安全验证时填写短信验证码，登录成功后会自动清空&&PikPakToken##用于存储登录信息,Bearer 开头&&采集解析地址##内置两个，失效不要反馈。格式：名称1@地址1;名称2@地址2&&阿里云盘RefreshToken##用于刷新阿里云盘账号Token&&光鸭RefreshToken##用于播放光鸭网盘视频，推荐填写，内部自动缓存并刷新AccessToken",
+    "codeID": "ZQJ5AcXBezuGuCewzA2SbtIbnG6p9yoh",
     "order": "A",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/panTools/js/panTools2.txt",
-    "type": 300
-  },
-  {
-    "name": "夸克|UC|天翼|123|百度|移动|pikpak|115|解析",
-    "version": 1,
-    "remark": "iOS 14 及以下版本专用",
-    "env": "百度网盘Cookie##用于播放百度网盘视频&&UCCookie##用于播放UC网盘视频&&UC_Token##UC网盘 Open API Token（可选，优先使用）&&夸克Cookie##用于播放Quark网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称&&123网盘账号##用于播放123网盘视频&&123网盘密码##用于播放123网盘视频&&天翼网盘账号##用于播放天翼网盘视频&&天翼网盘密码##用于播放天翼网盘视频&&115Cookie##用于播放115网盘视频&&PikPakToken##用于存储登录信息,Bearer 开头&&采集解析地址##内置两个，失效不要反馈。格式：名称1@地址1;名称2@地址2",
-    "order": "B",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/panTools/js/panTools2_iOS14.js",
-    "type": 300
-  },
-  {
-    "name": "夸克|UC|阿里|天翼|123|百度|移动|pikpak|115|解析",
-    "version": 41,
-    "remark": "夸克不转存版本，iOS 15 及以上版本可用",
-    "env": "百度网盘Cookie##用于播放百度网盘视频&&UCCookie##用于播放UC网盘视频&&UC_Token##UC网盘 Open API Token（可选，优先使用）&&夸克Cookie##用于播放Quark网盘视频&&阿里云盘RefreshToken##用于播放阿里网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称&&123网盘账号##用于播放123网盘视频&&123网盘密码##用于播放123网盘视频&&天翼网盘账号##用于播放天翼网盘视频&&天翼网盘密码##用于播放天翼网盘视频&&115Cookie##用于播放115网盘视频&&PikPakToken##用于存储登录信息,Bearer 开头&&采集解析地址##内置两个，失效不要反馈。格式：名称1@地址1;名称2@地址2",
-    "codeID": "mqF3byofbl2rHKWlUjiLLzaSScYppsgQ",
-    "order": "C",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/panTools/js/panTools3.txt",
+    "api": "panTools/js/panTools2.txt",
     "type": 300
   },
   {
@@ -35,7 +16,7 @@
     "env": "豆儿弹幕API##使用兼容弹弹Play协议的API 格式 线路名称1@地址1|线路名称2@地址2",
     "codeID": "H50ZiI2coZY2SEy2CEkiinjbRjTDvvvs",
     "order": "A01",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/danMu/js/danMu5.txt",
+    "api": "danMu/js/danMu5.txt",
     "type": 400
   },
   {
@@ -43,7 +24,7 @@
     "version": 6,
     "remark": "iOS14 以上版本可用",
     "codeID": "eaY5aQ1H4hWPS87qEmIUYnxmIz5bfkik",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/recommend/js/douban.txt",
+    "api": "recommend/js/douban.txt",
     "type": 200
   },
   {
@@ -102,28 +83,28 @@
   },
   {
     "name": "[荐] 豆瓣",
-    "version": 4,
+    "version": 5,
     "remark": "🍃豆儿出品，不属精品！",
     "webSite": "https://movie.douban.com",
-    "codeID": "4r9lCCTjjoqI5sGDkzho2sNKSL2BQXpc",
+    "codeID": "Y0Rizak2NjzBCHelYjYXBd02cy3ilRpp",
     "order": "A00",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Jian_douban2.txt",
+    "api": "vod/js/Jian_douban2.txt",
     "type": 101
   },
-     {
+       {
     "name": "[盘] 欧歌",
     "version": 3,
     "webSite": "https://woog.nxog.eu.org",
-    "order": "A08",
+    "order": "A01",
     "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_ouge.js",
     "type": 101
   },
     {
-    "name": "[备] 装歌",
+    "name": "[盘] 装歌",
     "version": 3,
-    "webSite": "https://ogkk.nxog.eu.org",
+    "webSite": "https://woog.nxog.fun",
     "order": "A08",
-    "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Pan_ouge.js",
+    "api": "vod/js/Pan_ouge.js",
     "type": 101
   },
   {
@@ -131,16 +112,16 @@
     "version": 3,
     "webSite": "http://wogg.xxooo.cf",
     "order": "A01",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_wogg.js",
+    "api": "vod/js/Pan_wogg.js",
     "type": 101,
-    "logo": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/logo/wanou.png"
+    "logo": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/logo/wanou.png"
   },
   {
     "name": "[盘] 木偶",
     "version": 6,
     "webSite": "https://666.666291.xyz",
     "order": "A02",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_mogg.js",
+    "api": "vod/js/Pan_mogg.js",
     "type": 101
   },
   {
@@ -148,16 +129,16 @@
     "version": 5,
     "webSite": "http://feimao888.fun",
     "order": "A03",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_labipan.js",
+    "api": "vod/js/Pan_labipan.js",
     "type": 101,
-    "logo": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/logo/labi.png"
+    "logo": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/logo/labi.png"
   },
   {
     "name": "[盘] 多多",
     "version": 3,
     "webSite": "https://tv.yydsys.top",
     "order": "A04",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_duoduo.js",
+    "api": "vod/js/Pan_duoduo.js",
     "type": 101
   },
   {
@@ -165,7 +146,7 @@
     "version": 1,
     "webSite": "https://sd.sduc.site",
     "order": "A04",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_shandian.js",
+    "api": "vod/js/Pan_shandian.js",
     "type": 101
   },
   {
@@ -174,7 +155,7 @@
     "remark": "🙀是白猫呀！！！",
     "webSite": "https://4ktop.com",
     "order": "A04",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_4KTop.js",
+    "api": "vod/js/Pan_4KTop.js",
     "type": 101
   },
   {
@@ -182,7 +163,7 @@
     "version": 4,
     "webSite": "https://libvio.mov/",
     "order": "A04",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_libvio.js",
+    "api": "vod/js/Pan_libvio.js",
     "type": 101
   },
 
@@ -191,7 +172,7 @@
     "version": 2,
     "webSite": "http://2xiaopan.fun",
     "order": "A06",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_erxiao.js",
+    "api": "vod/js/Pan_erxiao.js",
     "type": 101
   },
   {
@@ -199,7 +180,7 @@
     "version": 4,
     "webSite": "http://www.miqk.cc",
     "order": "A07",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_zhizhen.js",
+    "api": "vod/js/Pan_zhizhen.js",
     "type": 101
   },
   {
@@ -207,7 +188,7 @@
     "version": 1,
     "webSite": "http://103.45.162.207:20720",
     "order": "A08",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_huban.js",
+    "api": "vod/js/Pan_huban.js",
     "type": 101
   },
   {
@@ -217,7 +198,7 @@
     "webSite": "http://xsayang.fun:12512",
     "codeID": "o1yPDSn0NzqTIM7iqs1EcTbsIU4TVDdI",
     "order": "A09",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_zishiying.txt",
+    "api": "vod/js/Pan_zishiying.txt",
     "type": 101
   },
   {
@@ -227,7 +208,7 @@
     "webSite": "https://www.91panta.cn/",
     "codeID": "fYX7prspKVl5o8VMImJQllzG3NHeBdpp",
     "order": "A12",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_panta.txt",
+    "api": "vod/js/Pan_panta.txt",
     "type": 101
   },
   {
@@ -237,7 +218,7 @@
     "webSite": "https://www.leijing.xyz/",
     "codeID": "uhSLOEbw9TJY0Zqelm0DK3eauG5UxFf8",
     "order": "A13",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_leijing.txt",
+    "api": "vod/js/Pan_leijing.txt",
     "type": 101
   },
   {
@@ -245,7 +226,7 @@
     "version": 1,
     "webSite": "https://www.nanf.cc",
     "order": "A14",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_nanfdj.js",
+    "api": "vod/js/Pan_nanfdj.js",
     "type": 101
   },
   {
@@ -256,7 +237,7 @@
     "codeID": "LO5aQSJYBZLrRD1g",
     "instance": "funletu20241124",
     "order": "A15",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_funletu.txt",
+    "api": "vod/js/Pan_funletu.txt",
     "type": 100
   },
   {
@@ -266,17 +247,17 @@
     "webSite": "https://sou.makifx.com",
     "codeID": "KbVx88vHdV15XvzvUxCQScqe9Ymk6wCX",
     "order": "A16",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_yinhai.txt",
+    "api": "vod/js/Pan_yinhai.txt",
     "type": 101
   },
   {
     "name": "[盘] TG搜",
-    "version": 11,
+    "version": 13,
     "remark": "格式 频道名称1@频道id1&频道名称2@频道id2",
-    "env": "TG搜代理地址##默认直接访问 https://t.me/s/ 有自己的代理服务填入即可，没有不用改动。",
-    "webSite": "豆儿盘@douerpan&豆儿123@zyfb123&天翼日更@tianyirigeng&天翼臻影@tyysypzypd&百度@bdwpzhpd&夸克百度@Aliyun_4K_Movies&夸克UC@ucquark&夸克电影@Q_dianying&夸克剧集@Q_dianshiju&夸克动漫@Q_dongman",
+    "env": "TG搜代理地址##默认直接访问 https://t.me 有自己的代理服务填入即可，没有不用改动。",
+    "webSite": "豆儿盘@douerpan&偶豆豆@odoudouo&豆儿123@zyfb123&LEO资源@leoziyuan&资源宇宙@tgsearchers7",
     "order": "A17",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_tgs.js",
+    "api": "vod/js/Pan_tgs.js",
     "type": 101,
     "logo": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/logo/tg.png"
   },
@@ -287,7 +268,7 @@
     "env": "TG搜API地址##https://tgsou.252035.xyz",
     "webSite": "豆儿盘@douerpan&豆儿123@zyfb123&天翼日更@tianyirigeng&天翼臻影@tyysypzypd&百度@bdwpzhpd&夸克百度@Aliyun_4K_Movies&夸克UC@ucquark&夸克电影@Q_dianying&夸克剧集@Q_dianshiju&夸克动漫@Q_dongman",
     "order": "A18",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_tgs_api.js",
+    "api": "vod/js/Pan_tgs_api.js",
     "type": 101
   },
   {
@@ -297,7 +278,7 @@
     "webSite": "https://so.252035.xyz",
     "codeID": "KbVx88vHdV15XvzvUxCQScqe9Ymk6wCX",
     "order": "A19",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_pansou.txt",
+    "api": "vod/js/Pan_pansou.txt",
     "type": 101
   },
   {
@@ -306,7 +287,7 @@
     "remark": "🙀是白猫呀！！！",
     "webSite": "https://ysso.cc",
     "order": "A20",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_yishou.js",
+    "api": "vod/js/Pan_yishou.js",
     "type": 101
   },
   {
@@ -317,7 +298,7 @@
     "webSite": "https://pan1.me",
     "codeID": "26QUSjb30vJWr1ejaey2KGkx3Aq0pRIv",
     "order": "A20",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_123ypzysq.txt",
+    "api": "vod/js/Pan_123ypzysq.txt",
     "type": 101
   },
   {
@@ -326,7 +307,7 @@
     "remark": "🙀是白猫呀！！！",
     "webSite": "http://www.revohd.com",
     "order": "A21",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_qingying.js",
+    "api": "vod/js/Pan_qingying.js",
     "type": 101
   },
   {
@@ -335,7 +316,7 @@
     "remark": "🙀是白猫呀！！！",
     "webSite": "https://www.319312.com",
     "order": "A23",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_319yingshe.js",
+    "api": "vod/js/Pan_319yingshe.js",
     "type": 101
   },
   {
@@ -344,7 +325,7 @@
     "remark": "🙀是白猫呀！！！",
     "webSite": "https://www.rrdynb.com",
     "order": "A24",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Pan_renren.js",
+    "api": "vod/js/Pan_renren.js",
     "type": 101
   },
   {
@@ -353,7 +334,7 @@
     "remark": "🙀是白猫呀！！！",
     "webSite": "https://wooyun.tv",
     "order": "B",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Zhi_wooyun.js",
+    "api": "vod/js/Zhi_wooyun.js",
     "type": 101
   },
   {
@@ -361,7 +342,7 @@
     "version": 2,
     "webSite": "https://xl01.com.de",
     "order": "B",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Zhi_biliys.js",
+    "api": "vod/js/Zhi_biliys.js",
     "type": 101
   },
   {
@@ -371,7 +352,7 @@
     "webSite": "https://www.zxzjhd.com",
     "codeID": "xgFE0TUb8SZsOIlZzcUkxRtewYrSozoC",
     "order": "B",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Zhi_zxzj.txt",
+    "api": "vod/js/Zhi_zxzj.txt",
     "type": 101
   },
   {
@@ -379,7 +360,7 @@
     "version": 2,
     "webSite": "http://www.qiyoudy4.com",
     "order": "B",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Zhi_qiyou.js",
+    "api": "vod/js/Zhi_qiyou.js",
     "type": 101
   },
   {
@@ -388,38 +369,38 @@
     "webSite": "https://www.olehdtv.com",
     "instance": "olevod20240620",
     "order": "B",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Zhi_olevod.js",
+    "api": "vod/js/Zhi_olevod.js",
     "type": 100
   },
   {
     "name": "[直] 瓜子",
-    "version": 2,
+    "version": 3,
     "remark": "🍃豆儿出品，不属精品！",
-    "webSite": "https://api.w32z7vtd.com",
-    "codeID": "GsrfFOqB7JtHhaMDFHw9Xv3uHrCGSdwe",
+    "webSite": "https://apinew.uozvr.com",
+    "codeID": "C7pPXVlWMZl9ZJwZSGGes0DTcC4VnjIY",
     "order": "B",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Zhi_guazi.txt",
+    "api": "vod/js/Zhi_guazi.txt",
     "type": 101
   },
   {
     "name": "[直] 荐片",
-    "version": 2,
+    "version": 3,
     "remark": "🍃豆儿出品，不属精品！",
     "webSite": "jianpian",
-    "codeID": "3UXc19H0H2Dzz4vJEO4yFIGCmKXIlfoM",
+    "codeID": "MDKJ5hsoDs1G3zDmC2dlaGcQqKLUmevP",
     "order": "B",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Zhi_jianpian.txt",
+    "api": "vod/js/Zhi_jianpian.txt",
     "type": 101
   },
   {
     "name": "[直] 豆哔",
-    "version": 9,
+    "version": 10,
     "remark": "🍃豆儿出品，不属精品！内容来自网络 仅供学习测试！",
     "env": "bili_cookie##bili_cookie 用于获取个性化推荐和高清视频",
     "webSite": "doubi",
-    "codeID": "9Djl2QaDMOIgvhl8tYAhdVowEsmuPZpA",
+    "codeID": "AQ3lqQzcgQXsgVfoxPLP3dkJdZkI4SBE",
     "order": "B",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Zhi_doubi.txt",
+    "api": "vod/js/Zhi_doubi.txt",
     "type": 101
   },
   {
@@ -428,7 +409,7 @@
     "webSite": "https://www.hanjukankan.com",
     "instance": "hjkk20240624",
     "order": "B",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Zhi_hjkk.js",
+    "api": "vod/js/Zhi_hjkk.js",
     "type": 100
   },
   {
@@ -438,7 +419,7 @@
     "webSite": "https://qqqys.com",
     "codeID": "D9BXZ6cn6jBL9W50ORTUU2yV4vGxYCU1",
     "order": "B",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Zhi_3qys.txt",
+    "api": "vod/js/Zhi_3qys.txt",
     "type": 101
   },
   {
@@ -449,7 +430,7 @@
     "webSite": "emby服务器地址",
     "codeID": "LAqQ8NcDuZBVF5zgN2jGwywEuz2VjPjM",
     "order": "B",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Zhi_emby.txt",
+    "api": "vod/js/Zhi_emby.txt",
     "type": 101
   },
   {
@@ -459,7 +440,7 @@
     "webSite": "RRSP",
     "codeID": "a2buZX6jr7AcTQppx1MTcXMQOGNZFAAF",
     "order": "B",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Zhi_rrsp.txt",
+    "api": "vod/js/Zhi_rrsp.txt",
     "type": 101
   },
   {
@@ -467,7 +448,7 @@
     "version": 3,
     "webSite": "https://www.bttwoo.com",
     "order": "B",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Zhi_bttwoo.js",
+    "api": "vod/js/Zhi_bttwoo.js",
     "type": 101
   },
   {
@@ -477,7 +458,7 @@
     "webSite": "https://film.symx.club",
     "codeID": "OpwROp7JEarNm4PJvnFpaiCVjAMTGa8k",
     "order": "B",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Zhi_symx.txt",
+    "api": "vod/js/Zhi_symx.txt",
     "type": 101
   },
   {
@@ -487,7 +468,7 @@
     "webSite": "https://www.kuaikaw.cn",
     "codeID": "y1JFo0Sxs3fVwTggELeJ4U4MWLVKM1dK",
     "order": "B",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Zhi_hmdj.txt",
+    "api": "vod/js/Zhi_hmdj.txt",
     "type": 101
   },
   {
@@ -497,7 +478,7 @@
     "webSite": "fanqie",
     "codeID": "ck9JR5mmMu9fmULHPR1hbl0QRqmQm6M8",
     "order": "B",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Zhi_fqct.txt",
+    "api": "vod/js/Zhi_fqct.txt",
     "type": 101
   },
   {
@@ -507,7 +488,7 @@
     "webSite": "http://tingshu.kuwo.cn",
     "codeID": "USdWmrhBwHEAElFD428HKfByc0WbhzTw",
     "order": "B",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Zhi_kwts.txt",
+    "api": "vod/js/Zhi_kwts.txt",
     "type": 101
   },
   {
@@ -516,7 +497,7 @@
     "webSite": "https://4k-av.com",
     "instance": "www4kav20240705",
     "order": "B",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Zhi_4kav.js",
+    "api": "vod/js/Zhi_4kav.js",
     "type": 100
   },
   {
@@ -526,7 +507,7 @@
     "webSite": "https://download.avemujica.org",
     "codeID": "swAEnJ2uRVzAk8hp3Ba1Es6GfAk4TdpC",
     "order": "B",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Zhi_alist.txt",
+    "api": "vod/js/Zhi_alist.txt",
     "type": 101
   },
   {
@@ -536,7 +517,7 @@
     "webSite": "https://music.gdstudio.xyz/",
     "codeID": "M9nkucZA62rwJZsCkCkvdxuzYlRmmE4G",
     "order": "B",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Zhi_gdstudio.txt",
+    "api": "vod/js/Zhi_gdstudio.txt",
     "type": 101,
     "logo": "https://img.geekie.site/i/2026/02/23/220741.png"
   },
@@ -546,7 +527,7 @@
     "webSite": "http://101.42.227.94:11024",
     "codeID": "z5nxgZSWE8ipZYvGtImsRFu73TOB45fZ",
     "order": "B",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Zhi_omofun.txt",
+    "api": "vod/js/Zhi_omofun.txt",
     "type": 101
   },
   {
@@ -556,7 +537,7 @@
     "webSite": "https://v.aikanbot.com",
     "codeID": "xWEHbLCxcGGhC4tstiAXbQ5NT6FJz50X",
     "order": "B",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Zhi_iKanBot.txt",
+    "api": "vod/js/Zhi_iKanBot.txt",
     "type": 101
   },
   {
@@ -565,7 +546,7 @@
     "remark": "🍃豆儿出品，不属精品！",
     "webSite": "https://libvio.mov/",
     "order": "C",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Xiu_libvio.js",
+    "api": "vod/js/Xiu_libvio.js",
     "type": 101
   },
   {
@@ -573,7 +554,7 @@
     "version": 1,
     "webSite": "https://www.mxdm6.com",
     "order": "C",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Xiu_mxdm.js",
+    "api": "vod/js/Xiu_mxdm.js",
     "type": 101
   },
   {
@@ -581,7 +562,7 @@
     "version": 1,
     "webSite": "https://www.ntdm9.com",
     "order": "C",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Xiu_ntdm.js",
+    "api": "vod/js/Xiu_ntdm.js",
     "type": 101
   },
   {
@@ -591,7 +572,7 @@
     "webSite": "https://www.aowu.tv",
     "codeID": "byzBjZR3q9EK3gMag6owco6rksBCyG5k",
     "order": "C",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Xiu_aowu.txt",
+    "api": "vod/js/Xiu_aowu.txt",
     "type": 101
   },
   {
@@ -599,7 +580,7 @@
     "version": 1,
     "webSite": "https://www.tt776b.com",
     "order": "C",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Xiu_fcdm.js",
+    "api": "vod/js/Xiu_fcdm.js",
     "type": 101
   },
   {
@@ -607,7 +588,7 @@
     "version": 1,
     "webSite": "https://eacg1.com",
     "order": "C",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Xiu_eacg.js",
+    "api": "vod/js/Xiu_eacg.js",
     "type": 101
   },
   {
@@ -615,7 +596,7 @@
     "version": 1,
     "webSite": "https://eacg1.com",
     "order": "C",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Xiu_eacg2.js",
+    "api": "vod/js/Xiu_eacg2.js",
     "type": 101
   },
   {
@@ -623,7 +604,7 @@
     "version": 1,
     "webSite": "https://www.mutean.com",
     "order": "C",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Xiu_MuteFun.js",
+    "api": "vod/js/Xiu_MuteFun.js",
     "type": 101
   },
   {
@@ -632,7 +613,7 @@
     "remark": "通用官采解析1，需配合网盘解析工具使用。每次消耗所有解析次数！",
     "webSite": "https://zy.jinchancaiji.com/api.php/provide/vod",
     "order": "D1",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Jie_cms.js",
+    "api": "vod/js/Jie_cms.js",
     "type": 101
   },
   {
@@ -642,7 +623,7 @@
     "env": "采集解析地址##内置两个，失效不要反馈。格式：名称1@地址1;名称2@地址2",
     "webSite": "https://zy.jinchancaiji.com/api.php/provide/vod",
     "order": "D2",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Jie_cms2.js",
+    "api": "vod/js/Jie_cms2.js",
     "type": 101
   },
   {
@@ -657,7 +638,7 @@
     "remark": "地址输入自己搭建的 cms 采集地址，默认使用如意采集占位",
     "webSite": "https://cj.rycjapi.com/api.php/provide/vod",
     "order": "D5",
-    "api": "https://cdn.jsdelivr.net/gh/ouhaibo1980/uzVideo-extensions@main/vod/js/Cai_cmsUser.js",
+    "api": "vod/js/Cai_cmsUser.js",
     "type": 101
   }
 ]
